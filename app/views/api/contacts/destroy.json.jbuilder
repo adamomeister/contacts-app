@@ -1,0 +1,1 @@
+json.message "Entry successfully deleted."
