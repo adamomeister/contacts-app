@@ -20,6 +20,7 @@ class Api::ContactsController < ApplicationController
     @contact.last_name = "The Kid"
     @contact.email = "quickdraw@guns.com"
     @contact.phone_number = "nope"
+    @contact.save
     render "show.json.jbuilder"
   end
 end
